@@ -92,7 +92,7 @@ const Card = () => {
 
 					<h4>$50 All Course / $5 per month</h4>
 				</div>
-				<button className="btn ">
+				<button className="btn btn-one">
 					Enroll Now <FaArrowRightLong className="btn-icon" />
 				</button>
 			</div>

@@ -11,13 +11,6 @@
 	color: #ffff;
 }
 
-.main-header-container {
-	display: flex;
-	align-items: center;
-
-	flex-direction: column;
-}
-
 .home-text h3 {
 	text-transform: uppercase;
 	font-size: 1.2rem;
@@ -243,11 +236,13 @@
 .course-card:hover * {
 	color: #fff;
 }
-
-/* .course-card:hover .btn,
-.btn-icon {
+.course-card .btn:hover {
+	background: #ffff;
 	color: var(--color-primary);
-} */
+}
+.course-card .btn:hover .btn-icon {
+	color: var(--color-primary);
+}
 
 /*----------- ONLINE COURSES SECTION ---------------*/
 .courses-container {
@@ -312,8 +307,7 @@
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	font-size: 1.4rem;
-	color: #fff;
+	font-size: 1rem;
 }
 
 @keyframes bounce {
@@ -630,13 +624,12 @@
 	color: var(--color-secondary);
 	background: #ededed;
 	padding: 2.5rem 0;
-	font-size: .8rem;
+	font-size: 0.8rem;
 }
 
 .copyright a {
 	color: var(--color-primary);
-	margin-left: .5rem;
-	
+	margin-left: 0.5rem;
 }
 
 /*----------- RESPONSIVE SECTION ---------------*/
