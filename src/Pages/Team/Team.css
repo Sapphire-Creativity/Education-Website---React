@@ -1,0 +1,107 @@
+.team-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 4rem;
+}
+
+.team-card {
+	position: relative;
+	background: #ffff;
+	transition: var(--transition);
+}
+
+.team-image img {
+	height: auto;
+	width: 100%;
+}
+
+.team-socials {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	align-items: center;
+	left: -2rem;
+	top: 20%;
+	gap: 1rem;
+	transition: var(--transition);
+	opacity: 0;
+	transition: left 0.3s, opacity 0.3s;
+	color: var(--color-primary);
+}
+
+.team-card:hover .team-socials {
+	left: 2rem; /* Move the social icons to 2rem from the left on hover */
+	opacity: 1; /* Make the social icons visible on hover */
+}
+
+.team-socials .social {
+	color: #fff;
+	transition: color 0.3s;
+	padding: 1.5rem;
+	font-size: 1.5rem;
+	border-radius: 5rem;
+	transition: var(--transition);
+}
+
+.team-details {
+	position: absolute;
+	bottom: -20px;
+	width: 100%;
+	box-sizing: border-box;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 2rem;
+	background: #fff;
+	transition: var(--transition);
+}
+
+.team-details h3 {
+	color: var(--color-primary);
+	margin-bottom: 1rem;
+}
+
+.team-details p {
+	font-size: 0.9rem;
+}
+
+.team-card:hover .team-details {
+	background: var(--color-primary);
+	color: #ffff;
+}
+.team-card:hover .team-details h3 {
+	color: #ffff;
+}
+.team-socials .social:hover {
+	color: #ffff;
+	background: var(--text-color);
+}
+
+@media screen and (max-width: 1000px) {
+	.team-container {
+		display: grid;
+		gap: 2rem;
+	}
+	.team-details {
+		padding: 1rem;
+	}
+}
+@media screen and (max-width: 990px) {
+	.team-container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 4rem;
+	}
+}
+@media screen and (max-width: 600px) {
+	.team-container {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 4rem;
+	}
+
+	.team-details {
+		padding: 2rem;
+	}
+}
