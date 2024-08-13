@@ -1,5 +1,4 @@
-import { FaArrowRightLong } from "react-icons/fa6";
-import OtherHeader from "../../Components/OtherHeader/OtherHeader";
+
 import OnlineImage from "../../images/online.jpg";
 import Testimonial from "../../Components/Testimonial";
 import HeaderImage from "../../images/back.webp";
