@@ -11,7 +11,7 @@ const Footer = () => {
 		<section className="container">
 			<div className="footer-container">
 				<div className="section-one">
-					<a href="">ACADEMIA </a>
+					<a href="#">ACADEMIA </a>
 					<h4>ONLINE EDUCATION & LEARNING</h4>
 
 					<p>
@@ -31,23 +31,23 @@ const Footer = () => {
 					<div className="link-section">
 						<li>
 							<IoIosArrowRoundForward className="link-icon" />
-							<a href="">About Us</a>
+							<a href="#">About Us</a>
 						</li>
 						<li>
 							<IoIosArrowRoundForward className="link-icon" />
-							<a href="">Services</a>
+							<a href="#">Services</a>
 						</li>
 						<li>
 							<IoIosArrowRoundForward className="link-icon" />
-							<a href="">Courses</a>
+							<a href="#">Courses</a>
 						</li>
 						<li>
 							<IoIosArrowRoundForward className="link-icon" />
-							<a href="">Blog</a>
+							<a href="#">Blog</a>
 						</li>
 						<li>
 							<IoIosArrowRoundForward className="link-icon" />
-							<a href="">Contact Us</a>
+							<a href="#">Contact Us</a>
 						</li>
 					</div>
 				</div>
@@ -56,19 +56,19 @@ const Footer = () => {
 					<div className="link-section">
 						<li>
 							<IoIosArrowRoundForward className="link-icon" />
-							<a href="">Pricing</a>
+							<a href="#">Pricing</a>
 						</li>
 						<li>
 							<IoIosArrowRoundForward className="link-icon" />
-							<a href="">Terms & Conditions</a>
+							<a href="#">Terms & Conditions</a>
 						</li>
 						<li>
 							<IoIosArrowRoundForward className="link-icon" />
-							<a href="">Privacy</a>
+							<a href="#">Privacy</a>
 						</li>
 						<li>
 							<IoIosArrowRoundForward className="link-icon" />
-							<a href="">Feedback</a>
+							<a href="#">Feedback</a>
 						</li>
 					</div>
 				</div>
