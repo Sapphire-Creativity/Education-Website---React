@@ -3,7 +3,10 @@ const Copyright = () => {
 		<div className="copyright">
 			<p>
 				&copy; Copyright ©2024 All rights reserved | This template is made by
-				<a href="http://sapphirecreativity.com.ng/" target="_blank">
+				<a
+					href="http://sapphirecreativity.com.ng/"
+					target="_blank"
+					rel="noreferrer">
 					Sapphire Creativity
 				</a>
 			</p>

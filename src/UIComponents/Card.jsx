@@ -5,7 +5,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import image_one from "../../src/images/courses/c1.png";
 import image_two from "../../src/images/courses/c2.png";
 import image_three from "../../src/images/courses/c3.png";
-import image_four from "../../src/images/courses/c4.png";
+
 const Card = () => {
 	return (
 		<div className="courses-card">

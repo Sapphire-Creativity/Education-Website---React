@@ -28,9 +28,7 @@ const Team = () => {
 						return (
 							<div className="team-card" key={id}>
 								<div className="team-image">
-									<div className="team-socials">
-										
-									</div>
+									<div className="team-socials"></div>
 									<img src={instructorImage} alt="" />
 									<div className="team-details">
 										<h3>{name}</h3>

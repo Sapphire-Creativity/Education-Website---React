@@ -52,7 +52,9 @@ const Contact = () => {
 							style={{ border: "0" }}
 							allowFullScreen
 							loading="lazy"
-							referrerPolicy="no-referrer-when-downgrade"></iframe>
+							referrerPolicy="no-referrer-when-downgrade"
+							title="Map of the United States"
+						/>
 					</div>
 					<div className="contact-form">
 						<p>

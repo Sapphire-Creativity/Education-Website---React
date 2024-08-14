@@ -6,12 +6,13 @@ import { FaFacebookF } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaPinterestP } from "react-icons/fa";
+
 const Footer = () => {
 	return (
 		<section className="container">
 			<div className="footer-container">
 				<div className="section-one">
-					<a href="#">ACADEMIA </a>
+					<a href="/">ACADEMIA</a>
 					<h4>ONLINE EDUCATION & LEARNING</h4>
 
 					<p>
@@ -20,10 +21,18 @@ const Footer = () => {
 					</p>
 
 					<div className="socials-icon">
-						<FaFacebookF className="social" />
-						<RiInstagramFill className="social" />
-						<FaXTwitter className="social" />
-						<FaPinterestP className="social" />
+						<a href="https://facebook.com" target="_blank" rel="noreferrer">
+							<FaFacebookF className="social" />
+						</a>
+						<a href="https://instagram.com" target="_blank" rel="noreferrer">
+							<RiInstagramFill className="social" />
+						</a>
+						<a href="https://twitter.com" target="_blank" rel="noreferrer">
+							<FaXTwitter className="social" />
+						</a>
+						<a href="https://pinterest.com" target="_blank" rel="noreferrer">
+							<FaPinterestP className="social" />
+						</a>
 					</div>
 				</div>
 				<div className="setion-two">
@@ -31,23 +40,23 @@ const Footer = () => {
 					<div className="link-section">
 						<li>
 							<IoIosArrowRoundForward className="link-icon" />
-							<a href="#">About Us</a>
+							<a href="/about">About Us</a>
 						</li>
 						<li>
 							<IoIosArrowRoundForward className="link-icon" />
-							<a href="#">Services</a>
+							<a href="/services">Services</a>
 						</li>
 						<li>
 							<IoIosArrowRoundForward className="link-icon" />
-							<a href="#">Courses</a>
+							<a href="/courses">Courses</a>
 						</li>
 						<li>
 							<IoIosArrowRoundForward className="link-icon" />
-							<a href="#">Blog</a>
+							<a href="/blog">Blog</a>
 						</li>
 						<li>
 							<IoIosArrowRoundForward className="link-icon" />
-							<a href="#">Contact Us</a>
+							<a href="/contact">Contact Us</a>
 						</li>
 					</div>
 				</div>
@@ -56,19 +65,19 @@ const Footer = () => {
 					<div className="link-section">
 						<li>
 							<IoIosArrowRoundForward className="link-icon" />
-							<a href="#">Pricing</a>
+							<a href="/pricing">Pricing</a>
 						</li>
 						<li>
 							<IoIosArrowRoundForward className="link-icon" />
-							<a href="#">Terms & Conditions</a>
+							<a href="/terms">Terms & Conditions</a>
 						</li>
 						<li>
 							<IoIosArrowRoundForward className="link-icon" />
-							<a href="#">Privacy</a>
+							<a href="/privacy">Privacy</a>
 						</li>
 						<li>
 							<IoIosArrowRoundForward className="link-icon" />
-							<a href="#">Feedback</a>
+							<a href="/feedback">Feedback</a>
 						</li>
 					</div>
 				</div>
