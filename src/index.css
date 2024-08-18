@@ -21,9 +21,9 @@
 :root {
 	/* --primary-hue: 20; --gray-hue: 280; */
 
-	--color-primary: hsl(175, 80%, 41%);
+	--color-primary: hsl(175, 100%, 40%);
 	--color-secondary: hsl(0, 0%, 28%);
-	--text-color: hsl(0, 0%, 0%);
+	--text-color: hsl(0, 0%, 23%);
 	--background-color: #f8f8f8;
 	--transition: all 500ms ease;
 	--Header-Font-Style: "Montserrat", sans-serif;

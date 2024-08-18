@@ -40,7 +40,7 @@
 
 .header-content {
 	position: relative;
-	width: 60%;
+	width: 50%;
 	margin: 0 auto;
 	text-align: center;
 	color: #fff;
@@ -48,9 +48,10 @@
 
 .header-content h2 {
 	font-size: 3rem;
+	margin-bottom: 1rem;
 }
 
 .header-content p {
 	font-size: 1.3rem;
-	margin-top: 1rem;
+	margin-top: 1.5rem;
 }

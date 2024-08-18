@@ -4,6 +4,8 @@
 	align-items: stretch;
 }
 
+
+
 .contact-form {
 	display: flex;
 	flex-direction: column;
@@ -55,7 +57,7 @@ form textarea {
 	width: 100%;
 	padding: 10px;
 	margin-bottom: 15px;
-	border: .7px solid #ccc;
+	border: 0.7px solid #ccc;
 	border-radius: 4px;
 	font-size: 16px;
 }
@@ -81,7 +83,7 @@ form button:hover {
 		display: grid;
 		grid-template-columns: 1fr;
 	}
-	contact-form {
+	.contact-form {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;

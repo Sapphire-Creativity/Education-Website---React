@@ -1,13 +1,14 @@
 nav {
 	height: 4rem;
 	width: 100vw;
-	background: #dfdfdf36;
-	color: #565656;
+	background: #ebebeb36;
+	color: #acacac;
 	display: grid;
 	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 99;
+	transition: background-color 0.3s ease;
 }
 
 .nav-container {
@@ -58,6 +59,17 @@ nav {
 	left: calc(50% - 0.6rem);
 	transform: rotate(45deg);
 	margin-top: 0.9rem;
+}
+
+/* ==== Change Nav Background */
+
+.nav-scrolled {
+	background: hsl(175, 90%, 35%);
+}
+.nav-scrolled .nav-links a,
+.nav-scrolled .logo,
+.nav-scrolled .nav-toggle-btn svg{
+	color: #ffff; /* Change color when scrolled */
 }
 
 /** MEDIA QUERIES */
